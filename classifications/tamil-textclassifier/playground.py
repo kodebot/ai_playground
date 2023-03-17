@@ -7,8 +7,8 @@ Corpus = pd.read_csv("dataset/ta/news_headline_sample.csv", sep="|")
 
 
 #%%
-Corpus = Corpus[Corpus["label"].isnull()]
-Corpus
+Corpus = Corpus
+print(Corpus)
 
 
 #%%
